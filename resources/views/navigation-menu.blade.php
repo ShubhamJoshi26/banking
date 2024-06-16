@@ -20,9 +20,9 @@
                         {{ __('Users') }}
                     </x-nav-link>
                     @endcan
-                    @can('view transation')
+                    @can('view transactions')
                     <x-nav-link href="{{ url('/transaction') }}" :active="request()->routeIs('transaction')">
-                        {{ __('Users') }}
+                        {{ __('Transaction') }}
                     </x-nav-link>
                     @endcan
                 </div>
